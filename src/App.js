@@ -1,11 +1,11 @@
 import "./App.css";
-import PopChart from "./components/PopChart";
+import PlotData from "./components/PlotData";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <PopChart />
+        <PlotData />
       </div>
     </div>
   );
