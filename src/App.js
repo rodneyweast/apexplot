@@ -1,11 +1,11 @@
 import "./App.css";
-import PlotData from "./components/PlotData";
+import CryptoChart from "./components/CryptoChart";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <PlotData />
+        <CryptoChart />
       </div>
     </div>
   );
