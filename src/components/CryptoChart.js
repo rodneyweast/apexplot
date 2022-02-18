@@ -470,8 +470,8 @@ class CryptoChart extends Component {
       name: "ATOM-USD",
       data: workingData.slice(),
     }];
-    // console.log('CryptoChart: ',plotOptions)
-    // console.log('CryptoChart: ',plotSeries)
+    console.log('CryptoChart: ',plotOptions)
+    console.log('CryptoChart: ',plotSeries)
     return (
       workingData && (
         <div>
